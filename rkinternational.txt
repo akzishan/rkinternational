@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RK International Co. Ltd - Your trusted partner for purchasing and exporting high-quality used auto parts from Japan.">
+    <title>RK International Co. Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background: #f4f4f4;
+            padding: 10px 0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            height: 80px; /* Adjust height as needed */
+            width: auto; /* Maintain aspect ratio */
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px 0;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Homepage Section */
+        #home {
+            background: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        #home a {
+            display: inline-block;
+            background: white;
+            color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #home a:hover {
+            background: #0056b3;
+            color: white;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #ddd;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form button {
+            background: #007BFF;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="images/logo.jpg" alt="RK International Co. Ltd Logo" class="logo">
+            <h1>RK International Co. Ltd</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to RK International Co. Ltd!</h2>
+            <p>Your trusted partner for purchasing and exporting quality used auto parts from Japan.</p>
+            <a href="#contact">Get Started Today!</a>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Located in Saga Prefecture, Japan, RK International Co. Ltd has been a leading provider of used auto parts for customers worldwide. We’ve built our reputation on transparency, reliability, and offering the best value for used auto components.</p>
+            <h3>Our Mission</h3>
+            <p>To make high-quality Japanese auto parts easily accessible to customers globally, providing a seamless buying and exporting experience.</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>
+                    <h3>Purchasing</h3>
+                    <p>Sourcing the best used auto parts directly from Japan.</p>
+                </li>
+                <li>
+                    <h3>Exporting</h3>
+                    <p>Efficient and reliable international shipping, ensuring parts arrive safely and on time.</p>
+                </li>
+                <li>
+                    <h3>Destination Auctions</h3>
+                    <p>Through our trusted partner, Al Ittifaq Al Ikhwa in Sharjah, UAE, we provide access to destination auctions, helping you find the exact parts you need from auctions across the region.</p>
+                </li>
+                <li>
+                    <h3>Custom Orders</h3>
+                    <p>If you can’t find what you need, let us know—we specialize in sourcing rare parts for our customers.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>"I’ve been working with RK International for years. They always provide high-quality parts at competitive prices, and the shipping is always on time." – John D., USA</p>
+            </blockquote>
+            <blockquote>
+                <p>"RK International made sourcing auto parts for my project so easy. Great communication and service." – Maria T., Spain</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>RK International Co. Ltd<br>
+            4990 Oaza Shimo Taku Minami Taku Machi, Taku-shi, Saga, Japan<br>
+            Phone: 0952-76-4450<br>
+            Email: <a href="mailto:rkinternational@eco.ocn.ne.jp">rkinternational@eco.ocn.ne.jp</a></p>
+
+            <h3>Submit an Inquiry</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="details">Part Details:</label>
+                <textarea id="details" name="details" required></textarea>
+
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 RK International Co. Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
